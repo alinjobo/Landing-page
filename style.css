@@ -12,11 +12,11 @@ body {
     
     color:white;
     background-color: #486799;
-    flex: 1;
+    
 }
 .header{
     display: flex;
-    font-size: 25px;
+    font-size: 35px;
     justify-content: space-around;
    
     /*padding-left: 100px;
@@ -27,27 +27,28 @@ body {
 .links{
     font-size: 20px;
     display: flex;
-    gap:10px;
+    
+    gap:20px;
 }
 .desc {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 10px 0px 40px 10px;
+    gap: -20px;
 }
-img {
-    align-self: center;
-}
+
 .about{
     height: 250px;
     width: 450px;
+    padding-left: 20px;
     
     display: flex;
     flex-flow: column wrap;
     font-size: 20px;
     
     text-align: left;
-    
+    gap: 10px;
     
 }
 .awe{
@@ -60,4 +61,44 @@ button{
     height: 30px;
     border: none;
     border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+
+}
+
+
+
+.info-contents{
+    display: flex;
+    padding: 20px;
+    
+    justify-content: space-evenly;
+    
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    
+    height: 450px;
+    width: 250px;
+    padding: 20px;
+    gap: 100px;
+    flex: 1 1
+    
+}
+.item img{
+    height: auto;
+    width: 100px;
+    flex: 1 1 auto;
 }
